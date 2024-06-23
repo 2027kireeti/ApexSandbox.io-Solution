@@ -1,0 +1,11 @@
+public String aOrAn(String word) {
+    //code here
+    if(word[0] == 'a' or word[0] == 'e' or word[0] == 'i' or word[0] == 'o' or word[0] == 'u' or word[0] == 'A'
+    word[0] == 'E' or word[0] == 'I' or word[0] == 'O' or word[0] == 'U'){
+        return 'an'+ word;
+    }
+    else{
+        return 'a'+word;
+    }
+
+}
